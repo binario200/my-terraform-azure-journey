@@ -48,7 +48,15 @@ export ARM_TENANT_ID=your_tenant_id
 ```
 
 ## Running a test
-Continuing at your azure cli session, use the test.tf file and run the Terraform commands:
+Continuing at your azure cli session, use the test.tf file and run the Terraform commands.
+the test.tf will download the azure terraform provider and then it will create a resource group at your subscription.
+```
+terraform init
+terraform apply
 ```
 
+You can apply the terraform destroy command to remove your test resource grupo with terraform.
+
+```
+terraform destroy
 ```
