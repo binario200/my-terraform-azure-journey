@@ -33,3 +33,22 @@ override.tf.json
 terraform.rc
 
 /.vscode
+
+.DS_Store
+.vscode
+
+.terraform
+examples/test
+*.tfvars
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.log
+
+./*_override.tf
+./*_override.tf.json
+
+production_*.tf
+sandbox_*.tf
+
+*.BACKUP
